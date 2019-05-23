@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="#FF00FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#008000">
+
+        <Button
+            android:id="@+id/btn_menuID"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Bazar-Sodai"
+            android:textColor="#00FF00"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#008000"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!-- begins a new one -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="ফল"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:background="#008000"
+                android:layout_marginTop="5dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/aplles" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="আপেল - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/oranges" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="কমলা - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/bananas" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="কলা - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/grapes" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="আঙুর - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- begins a new one -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="শাক-সবজি"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:background="#008000"
+                android:layout_marginTop="5dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/cabbage"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:text="বাঁধাকপি - ৩০ টাকা/কেজি"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/cauliflower"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:text="ফুলকপি - ৩০ টাকা/কেজি"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/potatoes"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:text="আলু - ৩০ টাকা/কেজি"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/greenchilie"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:text="কাঁচামরিচ - ৩০ টাকা/কেজি"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/puishak"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:text="পুঁইশাক - ৩০ টাকা/কেজি"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/lalshak"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:text="লালশাক - ৩০ টাকা/কেজি"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- begins a new one -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="মুদি"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:background="#008000"
+                android:layout_marginTop="5dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/whiterice" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="চাল - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/masoors" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="মসুর ডাল - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/cumin" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="জিরা - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/soyabinoilrupchada" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="সয়াবিন তেল - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- begins a new one -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="আমিষ "
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:background="#008000"
+                android:layout_marginTop="5dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="270dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/beaf" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="গরুর মাংস - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/mutton" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="খাসির মাংস - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/hilsa" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="ইলিশ মাছ - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                    <!-- new item -->
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/egg" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="25sp"
+                            android:gravity="center"
+                            android:text="মুরগির ডিম - ৩০ টাকা/কেজি" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- begins a new one -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
